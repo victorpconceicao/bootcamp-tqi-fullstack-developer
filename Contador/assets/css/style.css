@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container {
+    height: 400px;
+    width: 500px;
+    background-color: rgb(196, 235, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px rgba(255, 99, 71, 0.712);
+}
+
+.contador {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_soma {
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:darkgreen;
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_subtracao {
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:darkred;
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}
+
+.visor_contagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    min-width: 100px;
+    border: solid 1px gray;
+    border-radius: 20px;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+.disabled_btn {
+    background-color: gray;
+}
+
+.positivo {
+    background-color: darkgreen;
+    color: white;
+}
+
+.negativo {
+    background-color: darkred;
+    color: white;
+}
