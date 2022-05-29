@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Lista de Coisas para Fazer (To-do list)</h1>
+        <p>Desenvolvido como parte dos desafios propostos no curso de Introdução ao Javascript</p>
+    </header>
+    <main class="container">
+        <h2>Lista de afazeres</h2>
+        <div class="input">
+            <label for="tarefa">Insira uma nova tarefa: </label>
+            <input id="tarefa" type="text">
+            <button id="cadastrar">Cadastrar</button>
+        </div>
+        <div class="tarefas_cadastradas">
+            <h3>Tarefas cadastradas:</h3>
+            <ul id="lista"></ul>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
